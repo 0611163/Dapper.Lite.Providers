@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net461;netstandard2.0;net6.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <Title>Lite.Dapper.Provider.MySQL</Title>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Version>1.0.0</Version>
+        <PackageId>Lite.Dapper.Provider.MySQL</PackageId>
+        <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageOutputPath>..\Dapper.Lite.Provider.MySQL</PackageOutputPath>
+        <Authors>suxiang</Authors>
+        <Copyright>Copyright @ 2023</Copyright>
+        <Description>Dapper.Lite的数据库实现。您也可以自己实现IProvider接口。</Description>
+        <PackageReleaseNotes>
+            Dapper的作者保留了ID前缀，所以此包更名为：Lite.Dapper.Provider.MySQL
+        </PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper.Lite" Version="2.0.11" />
+        <PackageReference Include="MySqlConnector" Version="2.2.6" />
+    </ItemGroup>
+
+</Project>

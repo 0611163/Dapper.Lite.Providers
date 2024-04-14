@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Lite.Provider.ClickHouse", "Dapper.Lite.Provider.ClickHouse\Dapper.Lite.Provider.ClickHouse.csproj", "{0C2D51DE-AC13-4F9A-BE93-57078C9B0143}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Lite.Provider.SQLite", "Dapper.Lite.Provider.SQLite\Dapper.Lite.Provider.SQLite.csproj", "{804D4890-70B4-47CF-A84B-4C18525BE7EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Lite.Provider.Access", "Dapper.Lite.Provider.Access\Dapper.Lite.Provider.Access.csproj", "{CA76698E-BAA3-4611-A229-4CAC14F5A35D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Lite.Provider.MySQL", "Dapper.Lite.Provider.MySQL\Dapper.Lite.Provider.MySQL.csproj", "{3C56A420-13AB-4D5F-87AA-A1EC8272725D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Lite.Provider.Oracle", "Dapper.Lite.Provider.Oracle\Dapper.Lite.Provider.Oracle.csproj", "{0F5C4CFE-FC57-4B7C-954D-53741AAD53D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2D51DE-AC13-4F9A-BE93-57078C9B0143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2D51DE-AC13-4F9A-BE93-57078C9B0143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2D51DE-AC13-4F9A-BE93-57078C9B0143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2D51DE-AC13-4F9A-BE93-57078C9B0143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804D4890-70B4-47CF-A84B-4C18525BE7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804D4890-70B4-47CF-A84B-4C18525BE7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804D4890-70B4-47CF-A84B-4C18525BE7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804D4890-70B4-47CF-A84B-4C18525BE7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA76698E-BAA3-4611-A229-4CAC14F5A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA76698E-BAA3-4611-A229-4CAC14F5A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA76698E-BAA3-4611-A229-4CAC14F5A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA76698E-BAA3-4611-A229-4CAC14F5A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C56A420-13AB-4D5F-87AA-A1EC8272725D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C56A420-13AB-4D5F-87AA-A1EC8272725D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C56A420-13AB-4D5F-87AA-A1EC8272725D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C56A420-13AB-4D5F-87AA-A1EC8272725D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5C4CFE-FC57-4B7C-954D-53741AAD53D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C4CFE-FC57-4B7C-954D-53741AAD53D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C4CFE-FC57-4B7C-954D-53741AAD53D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C4CFE-FC57-4B7C-954D-53741AAD53D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EFE7E5A-E44C-485E-961F-33507EF81DD3}
+	EndGlobalSection
+EndGlobal
