@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Lite.Dapper.Provider.MySQL</Title>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
-        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
+        <Version>1.0.2</Version>
         <PackageId>Lite.Dapper.Provider.MySQL</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -17,12 +17,12 @@
         <Copyright>Copyright @ 2023</Copyright>
         <Description>Dapper.Lite的数据库实现。您也可以自己实现IProvider接口。</Description>
         <PackageReleaseNotes>
-            Dapper的作者保留了ID前缀，所以此包更名为：Lite.Dapper.Provider.MySQL
+            Dapper的作者保留了ID前缀，所以此包更名为：Lite.Dapper.Provider.MySQL。破坏性更新：如果实体类中的属性有非数据库字段，请用NotMapped标识
         </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.Lite" Version="2.0.11" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.0" />
         <PackageReference Include="MySqlConnector" Version="2.2.6" />
     </ItemGroup>
 

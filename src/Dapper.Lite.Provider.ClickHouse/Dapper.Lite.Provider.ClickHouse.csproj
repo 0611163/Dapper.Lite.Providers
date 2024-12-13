@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Dapper.Lite.Provider.ClickHouse</Title>
-        <AssemblyVersion>1.0.10</AssemblyVersion>
-        <FileVersion>1.0.10</FileVersion>
-        <Version>1.0.10</Version>
+        <AssemblyVersion>1.0.12</AssemblyVersion>
+        <FileVersion>1.0.12</FileVersion>
+        <Version>1.0.12</Version>
         <PackageId>Dapper.Lite.Provider.ClickHouse</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -17,13 +17,13 @@
         <Copyright>Copyright @ 2023</Copyright>
         <Description>Dapper.Lite的数据库实现，基于ClickHouse.Client。您也可以自己实现IProvider接口。</Description>
         <PackageReleaseNotes>
-            升级Dapper.Lite
+            升级Dapper.Lite，破坏性更新：如果实体类中的属性有非数据库字段，请用NotMapped标识
         </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="ClickHouse.Client" Version="6.7.3" />
-        <PackageReference Include="Dapper.Lite" Version="2.0.11" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.0" />
     </ItemGroup>
 
 </Project>
