@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Dapper.Lite.Provider.SQLite</Title>
-        <AssemblyVersion>1.0.11</AssemblyVersion>
-        <FileVersion>1.0.11</FileVersion>
-        <Version>1.0.11</Version>
+        <AssemblyVersion>1.0.12</AssemblyVersion>
+        <FileVersion>1.0.12</FileVersion>
+        <Version>1.0.12</Version>
         <PackageId>Dapper.Lite.Provider.SQLite</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,7 +22,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.Lite" Version="2.1.1" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.2" />
     </ItemGroup>
 
     <ItemGroup>

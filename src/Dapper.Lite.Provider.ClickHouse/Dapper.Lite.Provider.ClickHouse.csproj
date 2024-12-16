@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Dapper.Lite.Provider.ClickHouse</Title>
-        <AssemblyVersion>1.0.13</AssemblyVersion>
-        <FileVersion>1.0.13</FileVersion>
-        <Version>1.0.13</Version>
+        <AssemblyVersion>1.0.14</AssemblyVersion>
+        <FileVersion>1.0.14</FileVersion>
+        <Version>1.0.14</Version>
         <PackageId>Dapper.Lite.Provider.ClickHouse</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -23,7 +23,7 @@
 
     <ItemGroup>
         <PackageReference Include="ClickHouse.Client" Version="6.7.3" />
-        <PackageReference Include="Dapper.Lite" Version="2.1.1" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.2" />
     </ItemGroup>
 
 </Project>

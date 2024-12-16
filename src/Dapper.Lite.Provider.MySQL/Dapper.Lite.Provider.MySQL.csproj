@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Lite.Dapper.Provider.MySQL</Title>
-        <AssemblyVersion>1.0.3</AssemblyVersion>
-        <FileVersion>1.0.3</FileVersion>
-        <Version>1.0.3</Version>
+        <AssemblyVersion>1.0.4</AssemblyVersion>
+        <FileVersion>1.0.4</FileVersion>
+        <Version>1.0.4</Version>
         <PackageId>Lite.Dapper.Provider.MySQL</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,7 +22,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.Lite" Version="2.1.1" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.2" />
         <PackageReference Include="MySqlConnector" Version="2.2.6" />
     </ItemGroup>
 

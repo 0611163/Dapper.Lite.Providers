@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Dapper.Lite.Provider.Access</Title>
-        <AssemblyVersion>1.0.8</AssemblyVersion>
-        <FileVersion>1.0.8</FileVersion>
-        <Version>1.0.8</Version>
+        <AssemblyVersion>1.0.9</AssemblyVersion>
+        <FileVersion>1.0.9</FileVersion>
+        <Version>1.0.9</Version>
         <PackageId>Dapper.Lite.Provider.Access</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,7 +22,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.Lite" Version="2.1.1" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.2" />
         <PackageReference Include="System.Data.OleDb" Version="6.0.0" />
     </ItemGroup>
 
