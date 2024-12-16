@@ -6,9 +6,9 @@
         <Nullable>disable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <Title>Lite.Dapper.Provider.Oracle</Title>
-        <AssemblyVersion>1.0.2</AssemblyVersion>
-        <FileVersion>1.0.2</FileVersion>
-        <Version>1.0.2</Version>
+        <AssemblyVersion>1.0.3</AssemblyVersion>
+        <FileVersion>1.0.3</FileVersion>
+        <Version>1.0.3</Version>
         <PackageId>Lite.Dapper.Provider.Oracle</PackageId>
         <PackageProjectUrl>https://gitee.com/s0611163/Dapper.Lite.Providers</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,7 +22,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.Lite" Version="2.1.0" />
+        <PackageReference Include="Dapper.Lite" Version="2.1.1" />
         <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.230" />
     </ItemGroup>
 
